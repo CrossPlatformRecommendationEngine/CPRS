@@ -1,19 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import {Chart} from 'chart.js';
+import { Chart } from 'chart.js';
 @Component({
   selector: 'app-result',
   templateUrl: './result.component.html',
   styleUrls: ['./result.component.css']
-})
+}) 
 export class ResultComponent implements OnInit {
-  BarChart = [];
-  LineChart = [];
+  BarChart;
+  LineChart;
   constructor() {
    }
 
   ngOnInit() {
      // Line chart:
-this.LineChart = new Chart('lineChart', {
+
+ this.LineChart = new Chart( 'lineChart', {
   type: 'line',
 data: {
  labels: ["Single Platform [0.49]","Cross Platform [0.25]"],
