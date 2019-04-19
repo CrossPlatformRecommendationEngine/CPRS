@@ -1,0 +1,14 @@
+button.nav:hover{
+    background:rgb(86, 12, 116);
+  }
+  button.nav:active{
+    background:rgb(86, 12, 116);
+  }
+  mat-grid-list{
+    
+    top:0px !important;
+  }
+  mat-grid-tile.right{
+    background:black;}
+    mat-grid-tile.left{
+        background:grey;}
